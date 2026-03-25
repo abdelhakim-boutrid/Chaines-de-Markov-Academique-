@@ -21,15 +21,12 @@ Absorbantes (états puits).
 Irréductibilité du graphe complet.
 2. Algèbre Linéaire (Calcul Matriciel)
 Matrices de Transition : Conversion Graphe -> Matrice.
-Distribution Stationnaire : Calcul de la convergence (état stable) par itération de puissances (
-M
-n
-) ou méthodes limites.
+Distribution Stationnaire : Calcul de la convergence (état stable) par itération de puissances (Mn) ou méthodes limites.
 Périodicité : Calcul du PGCD des longueurs de cycles pour déterminer la période d'une classe.
 
 #Architecture du Code
 
-main.c : Charge le graphe, lance Tarjan, analyse les propriétés et exporte les résultats.
-hasse.c : Contient l'implémentation de Tarjan, la gestion des piles (stack), et la logique de réduction transitive pour le diagramme de Hasse.
-matrix.c : Gestion dynamique de matrices, multiplication, calcul de convergence et périodicité.
-utils.c : Gestion basique du graphe.`**
+- main.c : Charge le graphe, lance Tarjan, analyse les propriétés et exporte les résultats.
+- hasse.c : Contient l'implémentation de Tarjan, la gestion des piles (stack), et la logique de réduction transitive pour le diagramme de Hasse.
+- matrix.c : Gestion dynamique de matrices, multiplication, calcul de convergence et périodicité.
+- utils.c : Gestion basique du graphe.`**
